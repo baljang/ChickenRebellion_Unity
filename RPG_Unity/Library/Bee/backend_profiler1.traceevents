@@ -1,0 +1,469 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1687831263244863, "dur":5825, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831263250692, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687831263250739, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687831263250754, "dur":322, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687831263251100, "dur":501, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831263251601, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264224778, "dur":224, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225002, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225030, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225031, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225037, "dur":137, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225174, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225193, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225195, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225201, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225202, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225206, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225207, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225209, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225210, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225214, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225215, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225218, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225229, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264225246, "dur":4260, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687831263251502, "dur":106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263251611, "dur":4897, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263256518, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687831263256520, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263256589, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687831263256593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263259185, "dur":17327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687831263276531, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1687831263276737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263276848, "dur":13617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1687831263290533, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1687831263290645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263290700, "dur":14415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1687831263305155, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity.exe" }}
+,{ "pid":12345, "tid":1, "ts":1687831263305197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263305200, "dur":57739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity.exe" }}
+,{ "pid":12345, "tid":1, "ts":1687831263362983, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263363188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263363195, "dur":19673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263383083, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263383140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263383146, "dur":32235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263415420, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263415470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263415476, "dur":51742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263467318, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263467365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263467371, "dur":36428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263503846, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263503884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263503890, "dur":20574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263524502, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263524556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263524562, "dur":18125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263542783, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263543177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263543184, "dur":44049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263587273, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263587311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263587317, "dur":67917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263655278, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263655318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263655323, "dur":25038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263680409, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263680454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263680460, "dur":36527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687831263717035, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1687831263717089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263717093, "dur":9091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1687831263726237, "dur":4691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1687831263730933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263730939, "dur":7948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1687831263738929, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1687831263738991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687831263738997, "dur":351710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1687831264090746, "dur":134030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263251576, "dur":43, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263251619, "dur":4968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263256587, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1687831263256697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263266745, "dur":24597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1687831263291455, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1687831263291569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263291576, "dur":27598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1687831263319251, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263319298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263319634, "dur":20904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263340577, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263340618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263340733, "dur":12358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263353132, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263353175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263353181, "dur":10544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263363784, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263363829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263363835, "dur":10243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263374121, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263374162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263374168, "dur":32964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263408368, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263408468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263408476, "dur":21056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263429570, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263429610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263429617, "dur":13317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263442975, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263443016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263443023, "dur":21835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263464903, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263464957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263464962, "dur":43997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263509073, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263509125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263509130, "dur":14285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263523511, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263523565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263523571, "dur":11999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263535610, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263535663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263535668, "dur":18533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263554560, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263554628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263554634, "dur":39538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263594221, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263594261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263594266, "dur":21631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263615954, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263615992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687831263615997, "dur":261209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687831263877249, "dur":347535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263251701, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263251702, "dur":4825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263256527, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1687831263256675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263264707, "dur":25722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1687831263290696, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1687831263290891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263290897, "dur":9192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1687831263300146, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263300235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263300488, "dur":165721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263466266, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263466412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263466419, "dur":16774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263483311, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263483353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263483359, "dur":32020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263515421, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263515461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263515467, "dur":84620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263600124, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263600163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263600169, "dur":16646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263616873, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263616913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263616924, "dur":151272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687831263768241, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1687831263768286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263768295, "dur":6973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1687831263775307, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687831263775345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263775351, "dur":8415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687831263783808, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1687831263783851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687831263783855, "dur":11920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1687831263795820, "dur":428967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263251544, "dur":70, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263251614, "dur":4899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263256517, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1687831263256658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263262462, "dur":18391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1687831263280932, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687831263281159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263281166, "dur":16754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687831263297976, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263298077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263301044, "dur":58683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263359770, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263359813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263359823, "dur":12692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263372572, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263372615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263372620, "dur":11388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263384047, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263384081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263384086, "dur":14992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263399144, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263399699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263399704, "dur":58489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263458235, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263458305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263458312, "dur":19379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263477732, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263477770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263477775, "dur":19892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263497907, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263498192, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263498198, "dur":20566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263518802, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263518840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263518845, "dur":11739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263530626, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263530665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263530671, "dur":47307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263578017, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263578056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263578061, "dur":14957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263593061, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263593103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263593109, "dur":25826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263619069, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263619122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263619130, "dur":12880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263632050, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263632089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263632094, "dur":39677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263671811, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263671849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687831263671855, "dur":134874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687831263806773, "dur":418013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263251614, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263251615, "dur":4897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263256517, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1687831263256646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263262444, "dur":7116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1687831263269608, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1687831263269699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263269947, "dur":23641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1687831263293633, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1687831263293722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263293728, "dur":8853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1687831263302657, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263302743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263302748, "dur":92084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263394875, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263394916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263394921, "dur":64219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263459764, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263459902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263459909, "dur":18821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263478772, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263478817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263478823, "dur":12971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263491901, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263491952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263491958, "dur":9888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263501884, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263501922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263501926, "dur":16940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263518997, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263519045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263519049, "dur":20063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263539157, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263539533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263539540, "dur":13741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263553326, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263554013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263554019, "dur":37029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263591086, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263591133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263591138, "dur":62284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263653465, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263653555, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263653564, "dur":82608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687831263736267, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/resources.resource" }}
+,{ "pid":12345, "tid":5, "ts":1687831263736312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687831263736318, "dur":344249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/resources.resource" }}
+,{ "pid":12345, "tid":5, "ts":1687831264088536, "dur":136195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263251667, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263251667, "dur":4844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263256517, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1687831263256660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263263412, "dur":20038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1687831263283507, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1687831263283610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263283618, "dur":26644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1687831263310308, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1687831263310404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263310956, "dur":14890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1687831263325886, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263325930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263325935, "dur":9502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263335478, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263335519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263335525, "dur":11921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263347499, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263347541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263347547, "dur":10942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263358631, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263358792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263358799, "dur":13121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263371973, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263372014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263372020, "dur":53605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263425668, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263425713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263425718, "dur":12346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263438108, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263438257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263438263, "dur":13590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263451894, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263451935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263451940, "dur":8986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263460968, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263461012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263461018, "dur":18182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263479237, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263479273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263479278, "dur":11802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263491122, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263491166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263491172, "dur":27179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263518397, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263518441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263518447, "dur":17160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263535647, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263535738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263535742, "dur":15929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263551711, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263551750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263551757, "dur":22489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263574286, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263574325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263574330, "dur":177176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687831263751565, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687831263751612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263751620, "dur":25544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1687831263777215, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1687831263777266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263777272, "dur":6033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1687831263783402, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687831263783458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263783464, "dur":4781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1687831263788312, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1687831263788618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687831263788623, "dur":3771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1687831263792433, "dur":432305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263251711, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263251711, "dur":4916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263256628, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1687831263256722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263270606, "dur":12448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1687831263284506, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1687831263284613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263285864, "dur":9987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1687831263295897, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1687831263296000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263296013, "dur":29602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1687831263325660, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263325708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263325760, "dur":10247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263336045, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263336081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263336086, "dur":13127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263349261, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263349305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263349311, "dur":14663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263364024, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263364065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263364069, "dur":13542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263377665, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263378011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263378020, "dur":15841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263394172, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263394236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263394242, "dur":28947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263425093, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263425148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263425155, "dur":14191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263439388, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263439425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263439431, "dur":11280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263450765, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263451330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263451336, "dur":25103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263477495, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263477546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263477552, "dur":23944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263501542, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263501587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263501593, "dur":12187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263513819, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263513857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263513878, "dur":21021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263534956, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263534995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263535001, "dur":18245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263553290, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263553765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263553772, "dur":26633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263580451, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263580499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263580505, "dur":30777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263611570, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263611623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263611630, "dur":79411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263691079, "dur":730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263691812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263691818, "dur":26077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687831263717975, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687831263718017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687831263718021, "dur":116049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1687831263834108, "dur":390680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263251775, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263251775, "dur":4750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263256525, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1687831263256741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263270553, "dur":19840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1687831263290863, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1687831263291114, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263291126, "dur":13857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1687831263305039, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1687831263305137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263305143, "dur":94245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1687831263399456, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263399507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263399513, "dur":14828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263414548, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263414650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263414657, "dur":12225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263426926, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263426963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263426969, "dur":28589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263455595, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263455633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263455638, "dur":38173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263493976, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263494217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263494229, "dur":14288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263508594, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263508706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263508712, "dur":19936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263528688, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263529951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263529968, "dur":15082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263545105, "dur":1160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263546268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263546275, "dur":47987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263594307, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263594414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263594419, "dur":13317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263607775, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263607810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263607816, "dur":15357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263623207, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263623243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263623248, "dur":93523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687831263716836, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1687831263716877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263716918, "dur":7482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1687831263724442, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1687831263724481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263724487, "dur":4738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1687831263729278, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1687831263729562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263729568, "dur":7605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1687831263737242, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1687831263737320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687831263737326, "dur":487341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ShinyoungJang/Desktop/RebellionOfChicken230627/RPG_Unity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1687831264224715, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1687831264224717, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687831264233794, "dur":4278, "ph":"X", "name": "ProfilerWriteOutput" }
+,
