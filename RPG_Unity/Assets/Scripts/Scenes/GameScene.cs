@@ -7,6 +7,14 @@ public class GameScene : BaseScene
     protected override void Init()
     {
         base.Init();
+
+        Managers.Game.MonsterAndPlayerClear();
+        Managers.Lock.ReleaseLocks();
+        Managers.Game.SaveData.entireEnemy = 0;
+        Managers.Game.SaveData.escapedChicken = 0;
+        Managers.Game.SaveData.stage = 0;
+        Managers.Game.SaveData.remainChicken = 0;
+
         if (Managers.Game.lang == Define.Language.Jpanese)
         {
             Managers.UI.ShowPopupUI<UI_PlayPopup_JP>().SetInfo((int)UI_PlayPopup_JP.States.ChickenSay, (int)UI_PlayPopup_JP.States.KeyInfo, () =>
