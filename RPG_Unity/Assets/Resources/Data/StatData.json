@@ -20,7 +20,7 @@
             "level":"3", 
             "maxHp": "400", 
             "attack": "22", 
-            "defence": "12",
+            "defence": "9",
             "moveSpeed" : "10", 
             "totalExp": "20"      
         },
@@ -28,7 +28,7 @@
             "level":"4", 
             "maxHp": "500", 
             "attack": "23", 
-            "defence": "15",
+            "defence": "11",
             "moveSpeed" : "15", 
             "totalExp": "30"      
         },
@@ -36,7 +36,7 @@
         "level": "5",
         "maxHp": "600",
         "attack": "24",
-        "defence": "25",
+        "defence": "13",
         "moveSpeed" : "17", 
         "totalExp": "40"
       },
@@ -44,17 +44,17 @@
         "level": "6",
         "maxHp": "700",
         "attack": "25",
-        "defence": "30",
+        "defence": "15",
         "moveSpeed" : "20", 
-        "totalExp": "45"
+        "totalExp": "50"
       },
       {
         "level": "7",
-        "maxHp": "800",
-        "attack": "26",
+        "maxHp": "1000",
+        "attack": "50",
         "defence": "19",
         "moveSpeed" : "25", 
-        "totalExp": "50"
+        "totalExp": "60"
       }
     ]
 }

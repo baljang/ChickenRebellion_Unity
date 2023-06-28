@@ -2123,7 +2123,7 @@ MonoBehaviour:
   _state: 2
   _lockTarget: {fileID: 0}
   _scanRange: 30
-  _attackRange: 2
+  _attackRange: 4
 --- !u!1 &5824428352130491590
 GameObject:
   m_ObjectHideFlags: 0

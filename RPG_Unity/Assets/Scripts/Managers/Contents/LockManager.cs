@@ -29,8 +29,8 @@ public class LockManager : MonoBehaviour
 
         _locks[0].GetComponent<Stat>().Level = 1; 
         _locks[1].GetComponent<Stat>().Level = 2; 
-        _locks[2].GetComponent<Stat>().Level = 3; 
-        _locks[3].GetComponent<Stat>().Level = 4; 
+        _locks[2].GetComponent<Stat>().Level = 4; 
+        _locks[3].GetComponent<Stat>().Level = 5; 
         _locks[4].GetComponent<Stat>().Level = 7; 
 
         for(int i=0; i<5; i++)
@@ -45,8 +45,8 @@ public class LockManager : MonoBehaviour
 
         _locks[0].GetComponent<Lock>()._level = 1; 
         _locks[1].GetComponent<Lock>()._level = 2;
-        _locks[2].GetComponent<Lock>()._level = 3;
-        _locks[3].GetComponent<Lock>()._level = 4;
+        _locks[2].GetComponent<Lock>()._level = 4;
+        _locks[3].GetComponent<Lock>()._level = 5;
         _locks[4].GetComponent<Lock>()._level = 7;
 
         _locks[4].GetComponent<Lock>()._enemyNum = 1; 
