@@ -127,13 +127,15 @@ public class GameManagerEx
                 {
                     if (_players.Contains(go))
                     {
-                        _players.Remove(go); 
+                        _players.Remove(go);
 
-                        if(OnPlayerSpawnEvent != null)
-                           OnPlayerSpawnEvent.Invoke(-1);
+                        if (OnPlayerSpawnEvent != null)
+                            OnPlayerSpawnEvent.Invoke(-1);
 
                         Managers.UI.FindPopup<UI_HudPopup>().RefreshChickenNum();
                     }
+                    else
+                        return; 
                 }
                 break;  
         }

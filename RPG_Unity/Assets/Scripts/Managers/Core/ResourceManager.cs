@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,6 +23,7 @@ public class ResourceManager
 
     public GameObject Instantiate(string path, Transform parent = null)
     {
+        // original을 이미 들고 있으면 바로 사용
         GameObject original = Load<GameObject>($"Prefabs/{path}"); 
         if(original == null)
         {
@@ -30,6 +31,7 @@ public class ResourceManager
             return null; 
         }
 
+        // 혹시 풀링 된 애가 있을까? 
         if (original.GetComponent<Poolable>() != null)
             return Managers.Pool.Pop(original, parent).gameObject; 
 

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -22,13 +22,20 @@ public class PoolManager
                 Push(Create());
         }
 
+        // 새로운 객체 만들어 주는 거. 
         Poolable Create()
         {
             GameObject go = Object.Instantiate<GameObject>(Original);
+            if (go == null) // Check if the new object is created successfully
+            {
+                Debug.LogError($"Failed to create a new instance of {Original.name}");
+                return null;
+            }
             go.name = Original.name;
             return go.GetOrAddComponent<Poolable>();
         }
 
+        // 만들어 준 애를 Pushb하고 꺼 놓는다. 
         public void Push(Poolable poolable)
         {
             if (poolable == null)
@@ -45,17 +52,16 @@ public class PoolManager
         {
             Poolable poolable;
 
-            if (_poolStack.Count > 0)
-                poolable = _poolStack.Pop();
+            if (_poolStack.Count > 0)  // 대기 상태인 애가 있다면
+                poolable = _poolStack.Pop(); 
             else
-                poolable = Create();
+                poolable = Create();  // 미리 만들어 놓은 게 없으면 새로 만들어 준다. 
 
             poolable.gameObject.SetActive(true);
 
-            // DontDestroyOnLoad 해제 용도
+            // DontDestroyOnLoad 해제 용도, Root 밖으로 옮겨준다.
             if (parent == null)
                 poolable.transform.parent = Managers.Scene.CurrentScene.transform; 
-
             poolable.transform.parent = parent;
             poolable.IsUsing = true;
 
@@ -86,6 +92,7 @@ public class PoolManager
     }
 
 
+    // 다 사용한 다음에 반환
     public void Push(Poolable poolable)
     {
         string name = poolable.gameObject.name;
@@ -98,6 +105,7 @@ public class PoolManager
         _pool[name].Push(poolable);         
     }
 
+    // 대기하고 있는 Pooling 된 오브젝트가 있으면 막바로 사용하겠다.
     public Poolable Pop(GameObject original, Transform parent = null)
     {
         if (_pool.ContainsKey(original.name) == false)
