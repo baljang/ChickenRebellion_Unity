@@ -31,13 +31,12 @@ public class GameScene : BaseScene
         Managers.Unit.Init();
 
         GameObject player = Managers.Game.Spawn(Define.WorldObject.Player, "ChickenPlayer");
-        player.GetComponent<PlayerStat>().SetStat(4); 
+        player.GetComponent<PlayerStat>().SetStat(2); 
         Camera.main.gameObject.GetOrAddComponent<CameraController>().SetPlayer(player);
 
         //Managers.Game.Spawn(Define.WorldObject.Monster, "Chicken");
         GameObject go = new GameObject { name = "SpawningPool" };
         SpawningPool pool = go.GetOrAddComponent<SpawningPool>();
-
 
         Managers.Unit.mouseDrag.dragRectangle = GameObject.Find("Canvas/DragRectangle").GetComponent<RectTransform>();
         Managers.Unit.mouseDrag.Init();
