@@ -73,7 +73,7 @@ public class LockManager : MonoBehaviour
 
         _locks.Clear();
 
-        for(int i=0; i<5; i++)
+        for(int i=0; i<6; i++)
         {
             Managers.Game.SaveData.keys[i] = false; 
         }

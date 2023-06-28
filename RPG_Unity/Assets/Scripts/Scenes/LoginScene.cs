@@ -9,18 +9,14 @@ public class LoginScene : BaseScene
 {
     protected override void Init()
     {
+        base.Init();
+
         Managers.Game.MonsterAndPlayerClear();
-        Managers.Game.SaveData.keys[5] = true;
         Managers.Lock.ReleaseLocks();
         Managers.Game.SaveData.entireEnemy = 0;
         Managers.Game.SaveData.escapedChicken = 0;
         Managers.Game.SaveData.stage = 0;
         Managers.Game.SaveData.remainChicken = 0;
-        for(int i=0; i<6; i++)
-        Managers.Game.SaveData.keys[i] = false;
-
-
-        base.Init();
 
         SceneType = Define.Scene.Title;
 
