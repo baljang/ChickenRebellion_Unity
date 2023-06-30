@@ -23,6 +23,9 @@ public class Lock : MonoBehaviour
     [SerializeField]
     public GameObject _lockVisual;
 
+    [SerializeField]
+    public GameObject _info; 
+
     public int _level; 
 
     private bool _playerApproached;
@@ -52,6 +55,11 @@ public class Lock : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (_playerApproached && _isUnlocked == false)
+            _info.SetActive(true);
+        else
+            _info.SetActive(false); 
+
         if(_isUnlocked == false && Input.GetKeyDown(KeyCode.F) && _playerApproached && Managers.Game.SaveData.keys[_keyNum] == true)
         {
             Unlock(); 
@@ -186,6 +194,7 @@ public class Lock : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         PlayerController _playerController = other.GetComponent<PlayerController>();
-        _playerApproached = _playerController != null;
+        if (_playerController != null)
+            _playerApproached = false;
     }
 }
