@@ -104,7 +104,7 @@ public class UI_HudPopup : UI_Popup
             {
                 if (Managers.Game.lang == Define.Language.Jpanese)
                 {
-                    Managers.UI.ShowPopupUI<UI_PlayPopup_JP>().SetInfo((int)UI_PlayPopup_JP.States.DogsEnd, (int)UI_PlayPopup_JP.States.GetKey, () =>
+                    Managers.UI.ShowPopupUI<UI_PlayPopup_JP>().SetInfo((int)UI_PlayPopup_JP.States.DogsEnd, (int)UI_PlayPopup_JP.States.NextInfo, () =>
                     {
                         Managers.Game.SaveData.keys[1] = true;
                         Managers.UI.SceneUIUpdate();
@@ -112,7 +112,7 @@ public class UI_HudPopup : UI_Popup
                 }
                 else if (Managers.Game.lang == Define.Language.Korean)
                 {
-                    Managers.UI.ShowPopupUI<UI_PlayPopup_KR>().SetInfo((int)UI_PlayPopup_KR.States.DogsEnd, (int)UI_PlayPopup_KR.States.GetKey, () =>
+                    Managers.UI.ShowPopupUI<UI_PlayPopup_KR>().SetInfo((int)UI_PlayPopup_KR.States.DogsEnd, (int)UI_PlayPopup_KR.States.NextInfo, () =>
                     {
                         Managers.Game.SaveData.keys[1] = true;
                         Managers.UI.SceneUIUpdate();

@@ -43,7 +43,7 @@ public class Managers : MonoBehaviour
         {
             if (Managers.Data.Texts.TryGetValue(id, out TextData value) == false)
                 return "";
-            if (id == 20047 || id == 20048 || id == 20049)
+            if (id == 20048 || id == 20049 || id == 20050)
             {
                 value.jpn = value.jpn.Replace("{totalChicken}", Managers.Game.SaveData.escapedChicken.ToString());
                 value.jpn = value.jpn.Replace("{remainChicken}", Managers.Game.SaveData.remainChicken.ToString());
@@ -54,7 +54,7 @@ public class Managers : MonoBehaviour
         {
             if (Managers.Data.Texts.TryGetValue(id, out TextData value) == false)
                 return "";
-            if (id == 20047 || id == 20048 || id == 20049)
+            if (id == 20048 || id == 20049 || id == 20050)
             {
                 value.kor = value.kor.Replace("{totalChicken}", Managers.Game.SaveData.escapedChicken.ToString());
                 value.kor = value.kor.Replace("{remainChicken}", Managers.Game.SaveData.remainChicken.ToString());

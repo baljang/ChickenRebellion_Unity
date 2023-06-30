@@ -14,7 +14,8 @@ public class UI_PlayPopup_JP : UI_Popup
         replyToDog,
         ChikenEscape, 
         DogsEnd,
-        GetKey,  
+        GetKey,
+        NextInfo,
 
         FreshStage,
         ChickenDeclare,
@@ -44,7 +45,7 @@ public class UI_PlayPopup_JP : UI_Popup
         Ending, 
 
         BadEnding
-    }
+     }
 
     public enum Texts
     {
@@ -100,6 +101,7 @@ public class UI_PlayPopup_JP : UI_Popup
         GetObject((int)States.ChikenEscape).SetActive(false);
         GetObject((int)States.DogsEnd).SetActive(false);
         GetObject((int)States.GetKey).SetActive(false);
+        GetObject((int)States.NextInfo).SetActive(false);
 
         GetObject((int)States.FreshStage).SetActive(false);
         GetObject((int)States.ChickenDeclare).SetActive(false);
@@ -159,72 +161,75 @@ public class UI_PlayPopup_JP : UI_Popup
             case (int)States.GetKey:
                 GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play8);
                 break;
-
-            case (int)States.FreshStage:
+            case (int)States.NextInfo:
                 GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play9);
                 break;
-            case (int)States.ChickenDeclare:
+
+            case (int)States.FreshStage:
                 GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play10);
+                break;
+            case (int)States.ChickenDeclare:
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play11);
                 break;
 
             case (int)States.FreshEnd:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play11);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play12);
                 break;
             case (int)States.ChickenGoNext:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play12);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play13);
                 break;
 
             case (int)States.ElderStage:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play13);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play14);
                 break;
             case (int)States.ChickenNoSatisfy:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play14);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play15);
                 break;
 
             case (int)States.ElderEnd:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play15);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play16);
                 break;
             case (int)States.ChickenGogo:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play16);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play17);
                 break;
 
             case (int)States.PoliceStage:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play17);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play18);
                 break;
             case (int)States.ChickenViolence:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play18);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play19);
                 break;
 
             case (int)States.PoliceEnd:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play19);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play20);
                 break;
             case (int)States.ChickenGoEnd:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play20);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play21);
                 break;
 
             case (int)States.BearStage:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play21);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play22);
                 break;
             case (int)States.ReplyToBear:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play22);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play23);
                 break;
 
             case (int)States.BearEnd:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play23);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play24);
                 break;
             case (int)States.ChickenEnd:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play24);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play25);
                 break;
 
             case (int)States.Result:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play25);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play26);
                 break;
             case (int)States.Ending:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play26);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play27);
                 break;
 
             case (int)States.BadEnding:
-                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play27);
+                GetText((int)Texts.PlayText).text = Managers.GetText(Define.Play28);
                 break;
 
             default:
