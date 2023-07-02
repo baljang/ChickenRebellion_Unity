@@ -70,3 +70,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+RPG_Unity/Library/
+RPG_Unity/temp/
+RPG_Unity/obj/
+RPG_Unity/build/
+RPG_Unity/builds/
+RPG_Unity/Logs/
+RPG_Unity/UserSettings/
