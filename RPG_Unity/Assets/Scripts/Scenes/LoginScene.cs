@@ -11,6 +11,9 @@ public class LoginScene : BaseScene
     {
         base.Init();
 
+        Managers.Sound.Clear();
+        Managers.Sound.Play("Title", Define.Sound.Bgm);
+
         Managers.Game.MonsterAndPlayerClear();
         Managers.Lock.ReleaseLocks();
         Managers.Game.SaveData.entireEnemy = 0;

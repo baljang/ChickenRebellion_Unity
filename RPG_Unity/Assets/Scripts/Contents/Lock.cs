@@ -47,7 +47,7 @@ public class Lock : MonoBehaviour
     {
         _collision = GetComponent<BoxCollider>();
 
-        // test
+        // test    
         Managers.Game.SaveData.keys[0] = true;
         Managers.UI.SceneUIUpdate();
     }

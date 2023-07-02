@@ -8,7 +8,7 @@ public class MonsterController : BaseController
     Stat _stat;
 
     [SerializeField]
-    float _scanRange = 100;
+    float _scanRange = 30;
 
     [SerializeField]
     float _attackRange = 2; 

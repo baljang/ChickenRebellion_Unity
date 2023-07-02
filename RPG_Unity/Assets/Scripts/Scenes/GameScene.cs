@@ -8,6 +8,9 @@ public class GameScene : BaseScene
     {
         base.Init();
 
+        Managers.Sound.Clear();
+        Managers.Sound.Play("BGM1", Define.Sound.Bgm);
+
         Managers.Game.MonsterAndPlayerClear();
         Managers.Lock.ReleaseLocks();
         Managers.Game.SaveData.entireEnemy = 0;
@@ -53,6 +56,7 @@ public class GameScene : BaseScene
         Managers.Lock.Init();
 
         Managers.Game.SaveData.gmaeOver = false;
+        Managers.Game.SaveData.clear = false; 
     }
 
     public override void Clear()

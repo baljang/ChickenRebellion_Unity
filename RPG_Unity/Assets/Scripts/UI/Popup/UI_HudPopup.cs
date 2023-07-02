@@ -19,14 +19,12 @@ public class UI_HudPopup : UI_Popup
         AutoBattle
     }
 
-    GameManagerEx _game;
-
     public override bool Init()
     {
         if (base.Init() == false)
             return false;
 
-        _game = Managers.Game;
+        Managers.Game.autoMode = false; 
 
         BindText(typeof(Texts));
         BindButton(typeof(Buttons));
@@ -97,6 +95,10 @@ public class UI_HudPopup : UI_Popup
 
     private void Update()
     {
+
+        if (Input.GetKeyDown("a"))
+           Managers.Unit.SelectAll();
+
         if (Managers.Game.SaveData.stage == 1 && Managers.Game.SaveData.remainEnemy == 0)
         {
 
@@ -190,8 +192,13 @@ public class UI_HudPopup : UI_Popup
             }
         }
 
-        if (Managers.Game.SaveData.stage == 5 && Managers.Game.SaveData.remainEnemy == 0)
+        if (Managers.Game.SaveData.stage == 5 && Managers.Game.SaveData.remainEnemy == 0 && Managers.Game.SaveData.clear == false)
         {
+            Managers.Game.SaveData.clear = true; 
+
+            Managers.Sound.Clear();
+            Managers.Sound.Play("GoodEnding", Define.Sound.Bgm);
+
             if (Managers.UI.PopupStackCheck(1) && Managers.Game.SaveData.keys[5] == false)
             {
                 if (Managers.Game.lang == Define.Language.Jpanese)
@@ -236,6 +243,10 @@ public class UI_HudPopup : UI_Popup
         if(Managers.Game.SaveData.stage != 0 && Managers.Game.SaveData.remainChicken == 0 && Managers.Game.SaveData.gmaeOver == false)
         {
             Managers.Game.SaveData.gmaeOver = true;
+
+            Managers.Sound.Clear();
+            Managers.Sound.Play("BadEnding", Define.Sound.Bgm);
+
             if (Managers.Game.lang == Define.Language.Jpanese)
             {
                 Managers.UI.ShowPopupUI<UI_PlayPopup_JP>().SetInfo((int)UI_PlayPopup_JP.States.BadEnding, (int)UI_PlayPopup_JP.States.BadEnding, () =>

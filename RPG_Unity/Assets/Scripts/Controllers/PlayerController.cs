@@ -8,7 +8,7 @@ public class PlayerController : BaseController
     int _mask = (1 << (int)Define.Layer.Ground) | (1 << (int)Define.Layer.Monster);
 
     [SerializeField]
-    float _scanRange = 100;
+    float _scanRange = 30;
 
     [SerializeField]
     float _attackRange = 2;

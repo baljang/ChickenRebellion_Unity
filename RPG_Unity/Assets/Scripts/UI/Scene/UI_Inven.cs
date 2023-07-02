@@ -25,6 +25,9 @@ public class UI_Inven : UI_Scene
     {
         GameObject gridPanel = Get<GameObject>((int)GameObjects.GridPanel);
 
+        if (gridPanel == null)
+            return; 
+
         // Remove all current items in the inventory
         foreach (Transform child in gridPanel.transform)
             Managers.Resource.Destroy(child.gameObject);

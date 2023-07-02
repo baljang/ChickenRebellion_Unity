@@ -21,7 +21,8 @@ public class GameData
 
     public int stage = 0;
 
-    public bool gmaeOver = false; 
+    public bool gmaeOver = false;
+    public bool clear = false;
 
 }
 
@@ -74,6 +75,9 @@ public class GameManagerEx
                 _players.Add(go);
                 if (OnPlayerSpawnEvent != null)
                     OnPlayerSpawnEvent.Invoke(1);
+                else
+                    Managers.Game.SaveData.remainChicken += 1; 
+
 
                 Managers.Game.SaveData.escapedChicken += 1;
 
